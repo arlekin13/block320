@@ -30,7 +30,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 40px;
-    background-color: FFFFFF;
+    background-color:white;
     padding: 24px 16px;
     margin-bottom: 24px;
     box-shadow: 0 1px 0px 0px #D9FFF5;
@@ -52,14 +52,44 @@ body{
 text-decoration: none;
 
 }
+
 .header-menu-list li{
-    background-color: #FF3E79;
+background-color: #FF3E79;
 border-radius: 50%;
 }
 .header-menu-list li:hover {
-    background-color: #fa0a32;
-    transition-duration: 0.3s;
-     opacity: 1;
+background-color: #fa0a32;
+transition-duration: 0.3s;
+opacity: 1;
+}
+
+.item1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        background-color:#FF3E79;
+        background-image:url(svg/key.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 0;
+        border-radius: 50%;
+    
+}
+.item2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color:#FF3E79;
+    background-image:url(svg/lupa.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0;
+    border-radius: 50%;
+
 }
  
 .link1{
@@ -100,7 +130,10 @@ justify-content: center;
     justify-content: center;
     height: 40px;
     width: 40px;
-        background-color: #FF3E79;
+    background-color:#FF3E79;
+    background-image:url(svg/burger-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
     border: 0;
     border-radius: 50%;
   }
