@@ -398,7 +398,9 @@ border:2px solid #B8FFEC;
     font-size: 16px;
     letter-spacing: -0.2px;
    }
-   
+    .firstblock__readmore-text:visited {
+        color: #000000; 
+       }
 
    .img_cps{
     max-width:100%;  
